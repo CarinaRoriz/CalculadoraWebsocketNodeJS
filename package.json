@@ -9,6 +9,9 @@
   },
   "author": "Carina Roriz Pimenta",
   "license": "ISC",
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "assert": "^2.0.0",
     "express": "^4.17.1",
