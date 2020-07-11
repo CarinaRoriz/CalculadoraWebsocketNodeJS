@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <h1>Calculadora</h1>
+
+      <div class="operadores">
+        Operações válidas:</br>
+        → Adição (+)</br>
+        → Subtração (-)</br>
+        → Multiplicação (*)</br>
+        → Divisão (/)
+      </div>
+    </br>
+      <div id="status">Conectando...</div>
+
+      <ul id="messages"></ul>
+
+      <form id="message-form" action="#" method="post">
+        <div>Escreva abaixo uma operação matemática entre dois números:</div>
+        <textarea
+          id="message"
+          placeholder="Exemplo: 1 + 1"
+          required
+        ></textarea>
+        <button type="submit">Enviar</button>
+        <button type="button" id="close">Finalizar conexão</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
